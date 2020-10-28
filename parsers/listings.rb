@@ -16,5 +16,5 @@ listings.each do |listing|
         title: title,
         price: price  
     }
-    outputs << product
+    pages << product
 end
