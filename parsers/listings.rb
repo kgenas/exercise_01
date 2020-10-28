@@ -26,7 +26,7 @@ listings.each do |listing|
     outputs << product
 
     # enqueue more pages to the scrape job
-    page << {
+    pages << {
         url: product['url'],
         page_type: 'details',
         vars: {  # adding vars to this page
