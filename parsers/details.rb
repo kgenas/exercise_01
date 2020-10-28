@@ -9,7 +9,7 @@ feedback = nokogiri.at_css('.seller-persona span[3]')&.text
 
 # save it into outputs
 outputs << {
-    _collection: 'listings',
+    _collection: 'products',
     title: page['vars']['title'],
     price: page['vars']['price'],
     seller: seller,
